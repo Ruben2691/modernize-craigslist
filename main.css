@@ -110,10 +110,26 @@ color: #800080;
 }
 
 td{
-  border: solid 1px color #333;
-
+  border: solid 1px #333;
+  text-align: center;
+  cursor: not-allowed;
 }
 
 .cal{
   border-collapse: collapse;
+}
+
+*{
+  color: green;
+ font-weight: bold;
+
+}
+
+.past{
+  color: rgb(0,0,0,0.5) ;
+}
+
+.today >a {
+color: white;
+background-color: darkviolet;
 }
